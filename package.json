@@ -1,0 +1,17 @@
+{
+  "name": "microfrontend-generator",
+  "version": "0.0.1-alpha.0",
+  "description": "Microfrontend Generator CLI",
+  "bin": {
+    "microfrontend": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^8.1.0",
+    "inquirer": "^8.1.2"
+  }
+}
