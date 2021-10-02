@@ -24,9 +24,6 @@
     "jest": {
         "moduleNameMapper": {
             "^@generate/(.*)$": "<rootDir>/$1"
-        },
-        "resetMocks": true,
-        "restoreMocks": true,
-        "clearMocks": true
+        }
     }
 }
