@@ -26,7 +26,6 @@ describe('ProjectService', () => {
         expect(exec).toHaveBeenCalled();
         expect(console.log).toHaveBeenNthCalledWith(1, 'Generating  files');
         expect(console.log).toHaveBeenNthCalledWith(2, "ok");
-        expect(console.log).toHaveBeenNthCalledWith(3, "");
     })
 
 
@@ -53,6 +52,6 @@ describe('ProjectService', () => {
         expect(exec).toHaveBeenCalled();
         expect(console.log).toHaveBeenNthCalledWith(1, 'Generating  files');
         expect(console.log).toHaveBeenNthCalledWith(2, "ok");
-        expect(console.log).toHaveBeenNthCalledWith(3, "Failed to run the project, make sure you have already do 'npm install' first in your Astrophel project and run 'npm start' in your root project folder");
+        expect(console.log).toHaveBeenNthCalledWith(3, "Failed to run the project, make sure you have already do 'npm install' first in your Astrophel project and run 'npm start' in your root project folder", "null");
     })
 });
