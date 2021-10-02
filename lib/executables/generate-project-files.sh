@@ -10,4 +10,9 @@ npx hygen container-generator html-title-generator $generatorPayload --initiated
 
 echo Copying starter project ...
 cp -r $starterProjectPath $initiatedProjectPath
-echo ${projectName} has been created successfully
+echo ${projectTitle} has been created successfully
+echo Installing ${projectTitle} dependancies ..
+cd $initiatedProjectPath
+yarn install
+echo "${projectTitle} is ready! to run the project kindly use command"
+echo "cd ${projectTitle} && yarn start"
