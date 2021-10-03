@@ -4,7 +4,7 @@ describe('ProjectService', () => {
         console.log = jest.fn(); // create a new mock function for each test
     })
 
-    test('should create new project successfully', async() => {
+    test('should create new project successfully', async () => {
         const error = null;
         const log = "ok";
         const { createNewProject } = require('@generate/lib/services/projectService');
@@ -31,7 +31,7 @@ describe('ProjectService', () => {
         expect(console.log).toHaveBeenNthCalledWith(2, "ok");
     })
 
-    test('should create new project not successfully', async() => {
+    test('should create new project not successfully', async () => {
         const error = {
             data: "someError"
         };
