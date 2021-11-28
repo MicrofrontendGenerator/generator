@@ -1,0 +1,19 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "Microfrontend Static",
+  "repository": "https://github.com/MicrofrontendGenerator/static.git",
+  "author": "Retzd",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve --port 5000 --cors content"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.7",
+    "serve": "^6.5.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
