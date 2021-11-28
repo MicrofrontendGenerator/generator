@@ -1,3 +1,8 @@
+# Hacktoberfest 2021
+We are open for Hacktoberfest 2021, please feel free to contribute into this repository.
+
+![Alt Text](public/showcase.gif)
+
 # Microfrontend Container
 Microfrontend for containing all microfrontend hosts
 
