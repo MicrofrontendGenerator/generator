@@ -1,11 +1,8 @@
-# Hacktoberfest 2021
-We are open for Hacktoberfest 2021, please feel free to contribute into this repository.
+# Microfrontend Research
 
 ![Alt Text](showcase.gif)
 
 # Microfrontend Generator
-
-A CLI for [Microfrontend generator](https://github.com/MicrofrontendGenerator) which helps us to generate starter microfrontend project with customized information and initial files as a container, microfrontend or static one.
 
 Contribution is welcome.
 
